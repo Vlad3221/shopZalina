@@ -1,0 +1,236 @@
+// Шрифты
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap");
+// <ОБНУЛЕНИЕ> ==============================
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+#app {
+    font-family: "Montserrat", sans-serif;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+input {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html {
+    height: auto;
+    background-color: $page_color;
+}
+
+// </ОБНУЛЕНИЕ> ==============================
+// <ПЕРЕМЕННЫЕ> ==============================
+$minWidth: 320px;
+$maxWidth: 1320px;
+$maxWidthContainer: 1150px;
+$md1: $maxWidthContainer+12;
+$md2: 991.98;
+$md3: 767.98px;
+$md4: 479.98px;
+// </ПЕРЕМЕННЫЕ> ==============================
+// <DEFAULT - CENTER BLOCK> ==============================
+// .container {
+//     max-width: $maxWidth;
+//     width: 100%;
+//     min-height: 20px;
+//     display: block;
+//     margin: 0 auto;
+//     height: auto;
+//     // padding: 0 16px;
+//     padding-right: 1.5rem;
+//     padding-left: 1.5rem;
+// }
+// </DEFAULT - CENTER BLOCK> ==============================
+input[type="text"]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type="text"]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: unset;
+    border: none;
+}
+
+.set-pos-regarding-header {
+    padding-top: 90px;
+}
+
+button {
+    border: none;
+}
+
+html {
+    font-size: 62.5%;
+    background: $page_color !important;
+}
+
+body {
+    font-weight: 500;
+    font-size: 14px;
+    // line-height: 24px;
+    background: $page_color;
+    font-family: "Montserrat", sans-serif;
+    color: rgba(20, 16, 41, 0.6);
+    position: relative;
+    font-variant: normal;
+    font-feature-settings: normal;
+}

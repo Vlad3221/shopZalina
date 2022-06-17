@@ -1,0 +1,27 @@
+VCard: 
+! если карточка с кнопкой "Mint Now" то параметры указываем в таком порядке:
+
+<VCard
+  :titleImage="require('ссылка изображения профиля')"
+  :Verified="true" -- нужна ли галочка (верификация пройдена?) (стандартное значение: false) параметр необязателен
+/>
+
+
+! Если карточка не имеет нижней кнопки и есть мини блок Mind:
+:Mind="true" включаем блок минд (по умолчанию false)
+NumMinted="Число" - обязательное числовое поле Mind (По умолчанию 0)
+
+Примечание: Если у VCard переменная :Mind = false то кнопка будет по умолчанию, в проитвном случае кнопка уберется сама!
+
+Props: 
+
+@Prop() titleImage!: string;
+@Prop() CardName!: string;
+@Prop({ default: "0" }) MiniCountL?: Number;
+@Prop({ default: false }) Verified?: Boolean;
+@Prop() Name!: string;
+@Prop({ default: false }) Mind?: Boolean;
+@Prop({ default: "0" }) NumMinted!: Number;
+@Prop({ default: "0" }) CountLikes?: number;
+@Prop({ default: false }) MiniImg_visible?: Boolean;
+  @Prop() MiniImg?: string;
