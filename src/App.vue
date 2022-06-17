@@ -1,6 +1,6 @@
 <template>
   <header>
-    VUE-3 base
+    <HeaderComponent/>
   </header>
 
   <!-- default vue receiver -->

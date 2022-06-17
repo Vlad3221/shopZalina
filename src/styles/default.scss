@@ -1,5 +1,5 @@
 // Шрифты
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap");
 // <ОБНУЛЕНИЕ> ==============================
 * {
     box-sizing: border-box;
@@ -7,11 +7,13 @@
 
 html,
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    ;
 }
 
 #app {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    ;
 }
 
 html,
@@ -164,7 +166,7 @@ html {
 // </ОБНУЛЕНИЕ> ==============================
 // <ПЕРЕМЕННЫЕ> ==============================
 $minWidth: 320px;
-$maxWidth: 1320px;
+$maxWidth: 1440px;
 $maxWidthContainer: 1150px;
 $md1: $maxWidthContainer+12;
 $md2: 991.98;
@@ -172,17 +174,18 @@ $md3: 767.98px;
 $md4: 479.98px;
 // </ПЕРЕМЕННЫЕ> ==============================
 // <DEFAULT - CENTER BLOCK> ==============================
-// .container {
-//     max-width: $maxWidth;
-//     width: 100%;
-//     min-height: 20px;
-//     display: block;
-//     margin: 0 auto;
-//     height: auto;
-//     // padding: 0 16px;
-//     padding-right: 1.5rem;
-//     padding-left: 1.5rem;
-// }
+.container {
+    max-width: $maxWidth;
+    width: 100%;
+    min-height: 20px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    // padding: 0 16px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
 // </DEFAULT - CENTER BLOCK> ==============================
 input[type="text"]::-ms-clear {
     display: none;
@@ -228,7 +231,8 @@ body {
     font-size: 14px;
     // line-height: 24px;
     background: $page_color;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    ;
     color: rgba(20, 16, 41, 0.6);
     position: relative;
     font-variant: normal;

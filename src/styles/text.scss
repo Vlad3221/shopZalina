@@ -1,6 +1,6 @@
 h1 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 30px;
     letter-spacing: -2px;
     color: #333;
     line-height: 48px;
@@ -104,10 +104,10 @@ h6 {
 .body1 {
     display: block;
     position: relative;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
 }
 
 .body2 {
@@ -126,4 +126,13 @@ h6 {
     font-size: 13px;
     line-height: 20px;
     color: #333;
+}
+
+span {
+    font-size: 20px;
+}
+
+.prise {
+    font-size: 16px;
+    color: #959595;
 }
